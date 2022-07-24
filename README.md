@@ -1,17 +1,17 @@
 # T3-Stack inspired resources and tutorial | NextJS, TypeScript, tRPC, Postgres, Prisma, TailwindCSS, nextAuth, Railway, Vercel
 
--   [About](#about)
--   [Video](#video)
--   [What's in it?](#whats-in-it)
-    -   [Tech stack](#tech-stack)
-    -   [Products used](#products)
-    -   [Services used](#services)
--   [Pricing](#pricing)
--   [Instructions](#instructions)
-    -   [Initialise project](#initialise-project)
-    -   [Setup database](#setup-database)
-    -   [Seed data and test app](#seed-data-and-test-app)
-    -   [Deploy](#deploy)
+- [About](#about)
+- [Video](#video)
+- [What's in it?](#whats-in-it)
+  - [Tech stack](#tech-stack)
+  - [Products used](#products)
+  - [Services used](#services)
+- [Pricing](#pricing)
+- [Instructions](#instructions)
+  - [Initialise project](#initialise-project)
+  - [Setup database](#setup-database)
+  - [Seed data and test app](#seed-data-and-test-app)
+  - [Deploy](#deploy)
 
 ## About
 
@@ -31,9 +31,9 @@ In here is everything you need to quickly spin up and deploy a full-stack starte
 
 Time required:
 
--   first time: 45-90mins
--   2nd time: 20-40mins
--   subsequent: 10-15mins
+- first time: 45-90mins
+- 2nd time: 20-40mins
+- subsequent: 10-15mins
 
 ### Tech stack
 
@@ -55,19 +55,19 @@ These are all free and mostly open source.
 
 Will only include stuff which fits my efficiency paradigm and which I've tested personally, so if you want Yarn or Linux or Vim or all-CLI etc seek elsewhere. But if you're just a regular schmoe dev this is all the stuff you need:
 
--   Windows
--   PowerShell
--   NPM
--   VSCode
--   GitHub Desktop
+- Windows
+- PowerShell
+- NPM
+- VSCode
+- GitHub Desktop
 
 ### Services
 
 These have forever free "hobby" levels, and very cheap entry-level offers once you go into production and need more resources.
 
--   [GitHub](https://github.com) - code repository
--   [Railway](https://railway.app) - database hosting
--   [Vercel](https://vercel.com) - deployment server
+- [GitHub](https://github.com) - code repository
+- [Railway](https://railway.app) - database hosting
+- [Vercel](https://vercel.com) - deployment server
 
 ## Pricing
 
@@ -85,7 +85,17 @@ There's very little explanation from here on, it's just steps to get the environ
 
 ### Video
 
--   [Setup and initial dry run on YouTube](https://www.youtube.com/watch?v=yPQ-0DJ0xHQ)
+<a href="https://www.youtube.com/watch?v=yPQ-0DJ0xHQ" target="_blank">
+  <p align="center">
+    <img src="/youtube-thumb.jpg" alt="Video thumbnail Ash messing with T3-Stack" width="320" />
+  </p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=yPQ-0DJ0xHQ" target="_blank">
+  <p align="center">Setup and initial dry run on YouTube</p>
+</a>
+
+- <https://www.youtube.com/watch?v=yPQ-0DJ0xHQ>
 
 I'm hardly a pro YouTuber, this is just my first dry-run following my own tutorial, with minimal explanation.
 
@@ -112,12 +122,14 @@ npx create-t3-app@latest
 ### Select dev stack
 
 > Which packages would you like to enable?
-> 
+>
 > `( ) nextAuth`  
 > `( ) Prisma`  
 > `( ) TailwindCSS`  
 > `( ) tRPC`
-
+  
+I'll take them all thanks.  
+  
 ### Git gud
 
 > Initialize new git repo?
@@ -130,9 +142,9 @@ Yup.
 
 Sure.
 
--   scaffold: ~30 secs
--   install packages: ~60 secs
--   Git init: ~1 sec
+- scaffold: ~30 secs
+- install packages: ~60 secs
+- Git init: ~1 sec
 
 ### Publish repo
 
@@ -198,9 +210,9 @@ It should populate the Railway project browser window with new empty database.
 
 Railway browser:
 
--   select the database
--   click `Connect`
--   copy `Postgres Connection URL`
+- select the database
+- click `Connect`
+- copy `Postgres Connection URL`
 
 VSCode:
 
@@ -235,7 +247,7 @@ Migration takes about 30secs.
 
 Railway:
 
--   check tables have been generated
+- check tables have been generated
 
 Terminal:
 
@@ -251,21 +263,21 @@ Prisma Studio ([http://localhost:5555](http://localhost:5555)) can now be used a
 
 [Prisma Studio](http://localhost:5555):
 
--   open `Example` table
--   click `add record`
--   click `save 1 record`
+- open `Example` table
+- click `add record`
+- click `save 1 record`
 
 New row with a GUID entry in `id` field is created.
 
 Railway:
 
--   open in browser and check the `example` table has a record in it
+- open in browser and check the `example` table has a record in it
 
 VSCode terminal:
 
--   `npm run dev`
--   nav to `http://localhost:3000/api/examples`
--   check the API is running, should just return same record in JSON, eg.
+- `npm run dev`
+- nav to `http://localhost:3000/api/examples`
+- check the API is running, should just return same record in JSON, eg.
 
 ```json
 [{"id":"cl5yxzjn70013ogxkndjskxr8"}]
@@ -279,13 +291,13 @@ Terminal:
 npm add -D vercel
 ```
 
--   git push changes
--   open [Vercel dashboard](https://vercel.com/dashboard)
--   click `+ New Project`
+- git push changes
+- open [Vercel dashboard](https://vercel.com/dashboard)
+- click `+ New Project`
 
 > Import Git Repository
 
--   select your repo
+- select your repo
 
 > Configure Project
 
