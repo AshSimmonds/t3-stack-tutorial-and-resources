@@ -1,6 +1,8 @@
 # T3 stack resources  
   
-Personal repo for documenting stuff as I go about learning and devving in NextJS, Typescript, tRPC, Tailwind, Postgres, Railway, Vercel, etc.  
+Personal repo for documenting stuff as I go about learning and devving in NextJS, Typescript, tRPC, TailwindCSS, Postgres, Prisma, Railway, Vercel, nextAuth etc.  
+  
+I'm using Win11, PowerShell, NPM/NPX, VSCode Insiders, so will only include stuff I've tested personally.
   
 ## Quick start  
   
@@ -18,10 +20,40 @@ Get stuff ready to go...
 
 #TODO: vercel instructions
 
-## Powershell
+## Initialise project
+  
+```bash
+cd \your-repo-parent-folder
+npx create-t3-app@latest
+```
 
-- `cd \your-repo-parent-folder`  
+### Name project
+
+>What will your project be called? `(my-t3-app)`  
+
+### Illusion of choice  
   
-- `npx create-t3-app@latest`  
+>Will you be using JavaScript or TypeScript?  
+
+### Select dev stack  
   
+>Which packages would you like to enable?  
+>
+>`( ) nextAuth`  
+>`( ) Prisma`  
+>`( ) TailwindCSS`  
+>`( ) tRPC`    
+
+### Setup Git  
   
+>Initialize new git repo?  
+
+### Setup project structure  
+  
+>Run NPM install?  
+  
+- scaffold: ~30 secs
+- install packages: ~60 secs
+- Git init: ~1 sec  
+
+
