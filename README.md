@@ -87,7 +87,7 @@ There's very little explanation from here on, it's just steps to get the environ
 
 <a href="https://www.youtube.com/watch?v=yPQ-0DJ0xHQ" target="_blank">
   <p align="center">
-    <img src="/youtube-thumb.jpg" alt="Video thumbnail Ash messing with T3-Stack" width="320" />
+    <img src="https://t3-stack-tutorial-and-resources.vercel.app/youtube-thumb.jpg" alt="Video thumbnail Ash messing with T3-Stack" width="320" />
   </p>
 </a>
 
