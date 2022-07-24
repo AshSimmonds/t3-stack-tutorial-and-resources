@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
       <main className="container mx-auto flex flex-col items-center justify-center h-screen p-4">
         <h1 className="text-3xl md:text-[2rem] leading-normal font-extrabold text-gray-700">
-          Tutorial for creating a <span className="text-green-300">T3</span> stacked app
+          Initialise and deploy a <span className="text-green-300">T3-Stack</span> app quick and easy
         </h1>
 
         <h2 className="text-2xl text-gray-700 mt-8">The repo and instructions</h2>
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <a href="https://github.com/AshSimmonds/t3-stack-tutorial-and-resources">https://github.com/AshSimmonds/t3-stack-tutorial-and-resources</a>
 
 
-        <iframe className="text-2xl text-gray-700 mt-8" width="560" height="315" src="https://www.youtube.com/embed/yPQ-0DJ0xHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className="text-2xl text-gray-700 mt-8" width="560" height="420" src="https://www.youtube.com/embed/yPQ-0DJ0xHQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
         <hr />
 
