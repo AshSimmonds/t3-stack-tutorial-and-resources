@@ -184,10 +184,21 @@ Can now use `npx prisma studio` as a direct interface to the database on `http:/
 
 ### Seed data and test it  
   
+[Prisma Studio](http://localhost:5555):  
+  
 - open `Example` table  
 - click `add record`, `save 1 record` - it'll just make a new row with a GUID entry in `id` field  
-- open Railway in the browser and check the `example` table has a record in it  
-- `npm run dev` and nav to `http://localhost:3000/api/examples` to check the API is running (should just return same record)  
+  
+Railway:  
+- open in browser and check the `example` table has a record in it  
+
+VSCode terminal:  
+- `npm run dev`  
+- nav to `http://localhost:3000/api/examples`  
+- check the API is running, should just return same record in JSON, eg.  
+```json
+[{"id":"cl5yxzjn70013ogxkndjskxr8"}]
+```
   
 ## Deploy to the world  
   
@@ -196,6 +207,31 @@ Terminal:
 npm add -D vercel
 ```
   
+- git push changes  
+- open [Vercel dashboard](https://vercel.com/dashboard)  
+- click `+ New Project`  
+
+>Import Git Repository  
+
+- select your repo  
+
+>Configure Project  
+
+Add environment variables - these need to be populated in a standard install:  
+
+| Name  | Value |
+| ------------- | ------------- |
+| `DATABASE_URL`  | `postgresql://postgres:{password}@containers-blah-69.railway.app:7594/railway`  |
+| `NEXTAUTH_SECRET`  | `JustAnythingForNow`  |
+| `NEXTAUTH_URL`  | `http://doesnotmatter:3000`  |
+| `DISCORD_CLIENT_ID`  | `WhateverForNow`  |
+| `DISCORD_CLIENT_SECRET`  | `DealWithItLater`  |
+  
+Click `Deploy`.  
+  
+Takes about 40-60 secs.  
+  
+
 
   
 
