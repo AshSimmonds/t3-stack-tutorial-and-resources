@@ -181,6 +181,20 @@ npx prisma generate
 ```
   
 Can now use `npx prisma studio` as a direct interface to the database on `http://localhost:5555`.  
+
+### Seed data and test it  
+  
+- open `Example` table  
+- click `add record`, `save 1 record` - it'll just make a new row with a GUID entry in `id` field  
+- open Railway in the browser and check the `example` table has a record in it  
+- `npm run dev` and nav to `http://localhost:3000/api/examples` to check the API is running (should just return same record)  
+  
+## Deploy to the world  
+  
+Terminal:  
+```bash
+npm add -D vercel
+```
   
 
   
