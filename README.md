@@ -75,7 +75,7 @@ Free.
 
 In case you missed it, everything here is free and nearly all open source.
 
-It's only the online deployed [services](https://github.com/AshSimmonds/t3-teste08-your-project-name#services) which you'll have to pay for if you need a ton of resources (good problem to have), but they all have forever free very generous allocations for messing around.
+It's only the online deployed [services](services) which you'll have to pay for if you need a ton of resources (good problem to have), but they all have forever free very generous allocations for messing around.
 
 Also there's no vendor-lock-in, you can even self-host any of the services, these just represent the easiest for me to use on a whim without costing anything.
 
