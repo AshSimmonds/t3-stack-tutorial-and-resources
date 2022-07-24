@@ -1,19 +1,19 @@
 # T3-Stack inspired resources and tutorial | NextJS, TypeScript, tRPC, Postgres, Prisma, TailwindCSS, nextAuth, Railway, Vercel
 
--   [About](https://github.com/AshSimmonds/t3-teste08-your-project-name#about)
--   [Video](https://github.com/AshSimmonds/t3-teste08-your-project-name#video)
--   [What's in it?](https://github.com/AshSimmonds/t3-teste08-your-project-name#whats-in-it)
-    -   [Tech stack](https://github.com/AshSimmonds/t3-teste08-your-project-name#tech-stack)
-    -   [Products used](https://github.com/AshSimmonds/t3-teste08-your-project-name#products)
-    -   [Services used](https://github.com/AshSimmonds/t3-teste08-your-project-name#services)
--   [Pricing](https://github.com/AshSimmonds/t3-teste08-your-project-name#pricing)
--   [Instructions](https://github.com/AshSimmonds/t3-teste08-your-project-name#instructions)
-    -   [Initialise project](https://github.com/AshSimmonds/t3-teste08-your-project-name#initialise-project)
-    -   [Setup database](https://github.com/AshSimmonds/t3-teste08-your-project-name#setup-database)
-    -   [Seed data and test app](https://github.com/AshSimmonds/t3-teste08-your-project-name#seed-data-and-test-app)
-    -   [Deploy](https://github.com/AshSimmonds/t3-teste08-your-project-name#deploy)
+-   [About](#about)
+-   [Video](#video)
+-   [What's in it?](#whats-in-it)
+    -   [Tech stack](#tech-stack)
+    -   [Products used](#products)
+    -   [Services used](#services)
+-   [Pricing](#pricing)
+-   [Instructions](#instructions)
+    -   [Initialise project](#initialise-project)
+    -   [Setup database](#setup-database)
+    -   [Seed data and test app](#seed-data-and-test-app)
+    -   [Deploy](#deploy)
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#about)About
+## About
 
 Personal repo for documenting stuff as I go about learning and devving in the initial stack recommended by [t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app) / [init.tips](https://init.tips), as of July 2022.
 
@@ -25,7 +25,7 @@ Initially a compression of a [proposed tutorial](https://github.com/t3-oss/creat
 
 This is not exhaustive nor definitive, just the way I've honed my routine for setting up a full-stack deployed environment within 15 mins and no major headscratching, which includes a front-end, styling, a database, an API, server routing, ~authentication~ (soon), and deployment to public.
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#whats-in-it)What's in it
+## What's in it
 
 In here is everything you need to quickly spin up and deploy a full-stack starter environment with most of the stuff any average app needs for quickly getting to work on your MVP.
 
@@ -35,7 +35,7 @@ Time required:
 -   2nd time: 20-40mins
 -   subsequent: 10-15mins
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#tech-stack)Tech stack
+### Tech stack
 
 All free and open source.
 
@@ -49,7 +49,7 @@ All free and open source.
 | `Prisma` | querying and stuff of data |
 | ~`nextAuth`~ | authentication / authorisation (coming soon) |
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#products)Products
+### Products
 
 These are all free and mostly open source.
 
@@ -61,7 +61,7 @@ Will only include stuff which fits my efficiency paradigm and which I've tested 
 -   VSCode
 -   GitHub Desktop
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#services)Services
+### Services
 
 These have forever free "hobby" levels, and very cheap entry-level offers once you go into production and need more resources.
 
@@ -69,7 +69,7 @@ These have forever free "hobby" levels, and very cheap entry-level offers once y
 -   [Railway](https://railway.app) - database hosting
 -   [Vercel](https://vercel.com) - deployment server
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#pricing)Pricing
+## Pricing
 
 Free.
 
@@ -79,11 +79,11 @@ It's only the online deployed [services](https://github.com/AshSimmonds/t3-teste
 
 Also there's no vendor-lock-in, you can even self-host any of the services, these just represent the easiest for me to use on a whim without costing anything.
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#instructions)Instructions
+## Instructions
 
 There's very little explanation from here on, it's just steps to get the environment up and running and deployed as quick as possible.
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#video)Video
+### Video
 
 -   [Setup and initial dry run on YouTube](https://www.youtube.com/watch?v=yPQ-0DJ0xHQ)
 
@@ -92,7 +92,7 @@ I'm hardly a pro YouTuber, this is just my first dry-run following my own tutori
 Total time: 31mins  
 Hands-on time: ~15mins
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#initialise-project)Initialise project
+### Initialise project
 
 Powershell:
 
@@ -101,15 +101,15 @@ cd \your-repo-parent-folder
 npx create-t3-app@latest
 ```
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#name-project)Name project
+### Name project
 
 > What will your project be called? `(my-t3-app)`
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#illusion-of-choice)Illusion of choice
+### Illusion of choice
 
 > Will you be using JavaScript or TypeScript?
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#select-dev-stack)Select dev stack
+### Select dev stack
 
 > Which packages would you like to enable?
 > 
@@ -118,13 +118,13 @@ npx create-t3-app@latest
 > `( ) TailwindCSS`  
 > `( ) tRPC`
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#git-gud)Git gud
+### Git gud
 
 > Initialize new git repo?
 
 Yup.
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#setup-project-structure)Setup project structure
+### Setup project structure
 
 > Run NPM install?
 
@@ -134,7 +134,7 @@ Sure.
 -   install packages: ~60 secs
 -   Git init: ~1 sec
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#publish-repo)Publish repo
+### Publish repo
 
 GitHub Desktop:
 
@@ -142,7 +142,7 @@ GitHub Desktop:
 
 Select new repo folder that was just set up (already has git stuff in it).
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#test-project-works)Test project works
+### Test project works
 
 Open in VSCode.
 
@@ -154,7 +154,7 @@ run npm dev
 
 Navigate to `http://localhost:3000`, should see the landing page.
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#setup-database)Setup database
+## Setup database
 
 Terminal:
 
@@ -194,7 +194,7 @@ Select database (postgresql).
 
 It should populate the Railway project browser window with new empty database.
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#populate-db-credentials)Populate db credentials
+### Populate db credentials
 
 Railway browser:
 
@@ -223,7 +223,7 @@ datasource db {
 }
 ```
 
-### [](https://github.com/AshSimmonds/t3-teste08-your-project-name#create-database-tablesschemaclient)Create database tables/schema/client
+### Create database tables/schema/client
 
 Terminal:
 
@@ -247,7 +247,7 @@ npx prisma studio
 
 Prisma Studio ([http://localhost:5555](http://localhost:5555)) can now be used as a direct interface to the database.
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#seed-data-and-test-app)Seed data and test app
+## Seed data and test app
 
 [Prisma Studio](http://localhost:5555):
 
@@ -271,7 +271,7 @@ VSCode terminal:
 [{"id":"cl5yxzjn70013ogxkndjskxr8"}]
 ```
 
-## [](https://github.com/AshSimmonds/t3-teste08-your-project-name#deploy)Deploy
+## Deploy
 
 Terminal:
 
